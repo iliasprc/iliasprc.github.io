@@ -262,7 +262,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work,.publications {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -273,6 +273,14 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 18px;
    margin-top: 9px;
 }
+
+#resume .publication {
+   font: 14px/16px 'italic', sans-serif;
+   color: #000;
+   margin-bottom: 10px;
+   margin-top: 5px;
+}
+
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
@@ -737,7 +745,7 @@ call-to-action .button {
 /* Flex Slider
 /* ------------------------------------------------------------------ */
 
-/* Reset */
+/* uet */
 .flexslider a:active,
 .flexslider a:focus  { outline: none; }
 .slides,
